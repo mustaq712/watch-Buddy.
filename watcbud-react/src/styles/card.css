@@ -1,0 +1,45 @@
+.card{
+    width: 210px;
+    height : 330 px;
+    background-color: black;
+    color: chocolate;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.moviename {
+    /* Limit the width of the movie name container */
+    max-width: 200px; /* Adjust this value based on your design and preference */
+    white-space: nowrap; /* Prevent the movie name from wrapping to a new line */
+    overflow: hidden; /* Hide any overflow (if the name is longer than the width) */
+    text-overflow: ellipsis; /* Show an ellipsis (...) when the name is truncated */
+  }
+img{
+    height :245px; 
+    transition-duration: 450ms;
+    transition-delay: 100ms;
+    transition-timing-function: linear;
+}
+
+img:hover{
+    transform: scale(1.5);
+
+}
+.list-button{
+    background-color: #d2691e; /* Change to your desired background color */
+    color: white;           /* Change to your desired text color */
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+  }
+  
+  .list-button:hover {
+    background-color:#a54806 ;
+  }
